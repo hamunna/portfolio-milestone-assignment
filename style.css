@@ -1,11 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-body {
     font-family: 'Poppins', sans-serif;
-    margin: 0;
 }
 
 .container {
@@ -14,15 +10,22 @@ body {
     margin: auto;
 }
 
+section {
+    justify-content: space-around;
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color:#666;
+}
+
 h1 {
     font-size: 50px;
     font-weight: 700;
-    color:#666
 }
 
 h2{
-    font-size: 30px;
-    font-weight: 300;
+    font-size: 40px;
+    font-weight: 600;
 }
 
 h3 {
@@ -31,7 +34,6 @@ h3 {
 }
 
 p {
-    color: #666;
     line-height: 34px;
     font-size: 18px;
 }
@@ -57,6 +59,7 @@ p {
 
 .flex-display {
     display: flex;
+    margin-bottom: 100px;
 }
 
 .half-width {
@@ -69,4 +72,37 @@ p {
 
 #header-img img{
     width: 100%;
+}
+
+/* Header Part is Comlete here... */
+
+#about-part {
+    background-image: url(images/background-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#about-content {
+    margin-top: 100px;
+    margin-bottom: 200px;
+}
+
+#about-content p {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+#about-img img{
+    width: 90%;
+}
+
+/* About Part is Complete here... */
+
+#recipies-part {
+    text-align: center;
+}
+
+#recipies-part p {
+    width: 60%;
+    margin: 40px auto;
 }
