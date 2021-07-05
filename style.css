@@ -159,10 +159,56 @@ p {
     font-weight: 700;
 }
 
+/* Social Count Part END here... */
 
 
+#newsletter {
+    height: 240px;
+    width: 100%;
+    margin-bottom: 100px;
+    background-image: url(images/bg-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 0 -325px;
+    text-align: center;
+    padding-top: 40px;
+}
 
-/* ----------------------------- */
+#newsletter h3 {
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+#newsletter form input {
+    height: 40px;
+    width: 50%;
+    border-radius: 5px;
+    border: 2px solid #666;
+    padding-left: 10px;
+    font-size: 20px;
+    font-weight: 600;
+    display: inline-block;
+}
+#newsletter form {
+    max-height: 46px;
+}
+#newsletter form button {
+    height: 44px;
+    width: 100px;
+    border-radius: 5px;
+    border: 2px solid #666;
+    display: inline-block;
+    padding: 6px 16px;
+    margin-left: 10px;
+    position: relative;
+    top: -3px;
+    font-weight: 600;
+    cursor: pointer;
+    
+}
+
+/* Newsletter Part END here... */
+
 footer {
     height:180px;
     width: 100%;
