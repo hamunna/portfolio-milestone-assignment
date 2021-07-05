@@ -14,7 +14,7 @@ section {
     justify-content: space-around;
 }
 
-h1, h2, h3, h4, h5, h6, p {
+h1, h2, p {
     color:#666;
 }
 
@@ -29,8 +29,8 @@ h2{
 }
 
 h3 {
-    font-size: 22px;
-    font-weight: 400;
+    font-size: 26px;
+    font-weight: 800;
 }
 
 p {
@@ -74,7 +74,7 @@ p {
     width: 100%;
 }
 
-/* Header Part is Comlete here... */
+/* Header Part END here... */
 
 #about-part {
     background-image: url(images/background-1.jpg);
@@ -96,13 +96,44 @@ p {
     width: 90%;
 }
 
-/* About Part is Complete here... */
+/* About Part END here... */
 
 #recipies-part {
     text-align: center;
+    margin-bottom: 100px;
 }
 
-#recipies-part p {
+.recipie-description {
     width: 60%;
     margin: 40px auto;
 }
+
+#recipie-posts {
+    width: 90%;
+    display: flex;
+    margin: auto;
+}
+
+.single-post {
+    width: 30%;
+    border-radius: 20px;
+    box-shadow: 0 0 20px #ccc;
+    padding: 20px;
+    text-align: left;
+    margin: auto 20px;
+}
+
+.single-post img {
+    width: 100%;
+}
+
+.single-post h3 {
+    margin-top: 20px;
+}
+
+.single-post p {
+    color: #212324;
+    line-height: 28px;
+}
+
+/* Recipie Part END here... */
