@@ -174,14 +174,13 @@ p {
     padding-top: 40px;
 }
 
-#newsletter h3 {
-    font-size: 40px;
+#newsletter h2 {
     margin-bottom: 40px;
 }
 
 #newsletter form input {
     height: 40px;
-    width: 50%;
+    width: 40%;
     border-radius: 5px;
     border: 2px solid #666;
     padding-left: 10px;
@@ -204,10 +203,56 @@ p {
     top: -3px;
     font-weight: 600;
     cursor: pointer;
-    
+
 }
 
 /* Newsletter Part END here... */
+#contact-title-sec h2 {
+    margin-bottom: 0;
+    color: #040113;
+}
+#contact-us {
+    background-color: #f1f1f1;
+    padding: 50px 0;
+}
+
+.contact-description{
+    width: 60%;
+    margin: 4px auto;
+}
+
+#social-contact{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+#contact-title-sec {
+    text-align: center;
+}
+
+#social-contact h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.social-icons img {
+    width: 7%;
+    margin-right: 30px;
+}
+
+#contact-info p, #address-part p {
+    line-height: 20px;
+}
+
+#address-part {
+    position: relative;
+    right: 0;
+}
+
+/* Contact Part END here... */
 
 footer {
     height:180px;
