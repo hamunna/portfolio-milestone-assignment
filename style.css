@@ -2,6 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .container {
@@ -66,6 +67,64 @@ p {
 .half-width {
     width: 50%;
 }
+
+li {
+    list-style-type: none;
+}
+
+/* ------------------------------- */
+
+nav {
+    height: 80px;
+}
+
+#nav-container {
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+
+#navLogo {
+    text-decoration: none;
+    color: #666;    
+    position: absolute;
+    top: 20px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 20px;
+    word-spacing: 8px;
+    border-bottom: 2px solid #fe492e;
+}
+
+nav ul {
+    display: inline-block;
+    position: absolute;
+    right: 0;
+    top: 22px;
+    border-bottom: 2px solid #fb9a4d;
+    padding-bottom: 8px;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li:not(:first-child){
+    margin-left: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #fe492e;
+    font-weight: 600;
+}
+
+nav ul li a:hover {
+    color: #ff9888
+}
+
+
 
 #header-contents {
     margin-top: 60px;
@@ -161,64 +220,25 @@ p {
 
 /* Social Count Part END here... */
 
-
-#newsletter {
-    height: 240px;
-    width: 100%;
-    margin-bottom: 100px;
-    background-image: url(images/bg-2.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: 0 -325px;
-    text-align: center;
-    padding-top: 40px;
-}
-
-#newsletter h2 {
-    margin-bottom: 40px;
-}
-
-#newsletter form input {
-    height: 40px;
-    width: 40%;
-    border-radius: 5px;
-    border: 2px solid #666;
-    padding-left: 10px;
-    font-size: 20px;
-    font-weight: 600;
-    display: inline-block;
-}
-#newsletter form {
-    max-height: 46px;
-}
-#newsletter form button {
-    height: 44px;
-    width: 100px;
-    border-radius: 5px;
-    border: 2px solid #666;
-    display: inline-block;
-    padding: 6px 16px;
-    margin-left: 10px;
-    position: relative;
-    top: -3px;
-    font-weight: 600;
-    cursor: pointer;
-
-}
-
-/* Newsletter Part END here... */
 #contact-title-sec h2 {
     margin-bottom: 0;
     color: #040113;
 }
 #contact-us {
     background-color: #f1f1f1;
-    padding: 50px 0;
+    padding-top: 50px;
+    padding-bottom: 100px;
+}
+
+#contact-title-sec {
+    text-align: center;
 }
 
 .contact-description{
-    width: 60%;
-    margin: 4px auto;
+    width: 50%;
+    margin: 0 auto;
+    font-size: 14px;
+    margin-bottom: 50px;
 }
 
 #social-contact{
@@ -229,10 +249,6 @@ p {
     margin-top: 30px;
 }
 
-#contact-title-sec {
-    text-align: center;
-}
-
 #social-contact h3 {
     font-size: 18px;
     margin-bottom: 10px;
@@ -240,11 +256,11 @@ p {
 
 .social-icons img {
     width: 7%;
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 #contact-info p, #address-part p {
-    line-height: 20px;
+    line-height: 24px;
 }
 
 #address-part {
