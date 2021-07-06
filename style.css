@@ -43,6 +43,10 @@ p {
     color: #fb9a4d;
 }
 
+.secondary-color {
+    color:#fe492e;
+}
+
 .btn {
     padding: 16px 40px;
     border-radius: 40px;
@@ -93,7 +97,7 @@ nav {
     font-weight: 600;
     margin-bottom: 20px;
     word-spacing: 8px;
-    border-bottom: 2px solid #fe492e;
+    border-bottom: 2px solid #fb9a4d;
 }
 
 nav ul {
